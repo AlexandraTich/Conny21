@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CONNY 21</title>
+  <link rel="icon" href="Imagenes/logo.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+  <link rel="stylesheet" href="CSS/estilo.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+    <a class="navbar-brand" href="#"><img src="Imagenes/logo.png" alt="logo-conny" width="60px" height="50px" style="
+            padding: 4px;
+            border-radius: 100%;
+            border: none;
+            background-color: blanchedalmond;
+          " /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="diseños.html">Diseños</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Arreglos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Pantalones</a>
+            <a class="dropdown-item" href="#">Blusas-camisas</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Sastrería</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" onclick="buscar()" type="search" placeholder="Búscar" aria-label="Search"
+          style="border-color: blue" />
+        <button class="btn btn-outline-success my-2 my-sm-0" style="
+              background-color: rgb(29, 29, 236);
+              border-color: mediumblue;
+              color: white;
+            " type="submit">
+          Buscar
+        </button>
+      </form>
+    </div>
+  </nav>
+
+  <!--Slider-carrusel-->
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner mt-2">
+      <div class="carousel-item active">
+        <img  src="Imagenes/imagen1.jpg" class="d-block w-100" alt="..." height="700px" />
+      </div>
+      <div class="carousel-item">
+        <img src="Imagenes/imagen2.jpg" class="d-block w-100" alt="..." height="700px" />
+      </div>
+      <div class="carousel-item">
+        <img src="Imagenes/imagen3.jpg" class="d-block w-100" alt="..." height="700px" />
+      </div>
+      <div class="carousel-item">
+        <img src="Imagenes/imagen4.jpg" class="d-block w-100" alt="..." height="700px" />
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <div class="container mt-3">
+    <!--Crea una margen de isquierda a derecha-->
+    <div class="row">
+      <!--Fila-->
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <p>Diseños</p>
+        En Conny 21 diseñamos toda clase de prendas para la ocasión, se confeccionan prendas para caballeros, damas,
+        niños e incluso para tus mascotas. Lo mejor es que es a tu medida, te invitamos a visitarnos, en nuestra
+        microempresa te brindamos asesoria sobre el tipo de tela que se acomoda a tus deseos. Animate!!
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <p>Arreglos</p>
+        En nuestra microempresa también encontrarás la solución a aquellas prendas que no te quedan del todo bién o que
+        por algún motivo necesitan de una pequeña modificación. Se entuban pantalones, se angostan toda clase de prenda,
+        se realiza la postura de parches etc, cualquier idea que tengas en modificar tus prendas, aquí las hacemos
+        realidad!!!
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="container mt-2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/qclnreuFhEc" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+
+  <!-- FORMULARIO -->
+  <div class="container" >
+    <div class="row">
+      <div class="col-lg-12 col-sm-12">
+        <form class="mt-2 bg-danger rounded-lg p-3">
+          <div class="form-group">
+            <label class="label" for="exampleFormControlInput1">Ingrese su nombre</label>
+            <input  type="email" class="form-control" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+          </div>
+          <div class="form-group">
+            <label class="label" for="exampleFormControlSelect1">Servicio</label>
+            <select  class="form-control" id="exampleFormControlSelect1">
+              <option class="estilo">Seleccione...</option>
+              <option>Diseños y confecciones</option>
+              <option>Arreglos</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="label" for="exampleFormControlSelect2">Prenda</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option class="estilo">Seleccione...</option>
+              <option>Pantalón(es)</option>
+              <option>Blusas - Camisas</option>
+              <option>Sastre Damas-Caballeros</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="label" for="exampleFormControlTextarea1">Descripción</label>
+            <textarea class="form-control" name="descripcion" id="edescripcion" rows="3"
+              placeholder="Ingrese la descripción del diseño o arreglo de la prenda" required></textarea>
+              <div class="btn-group mt-2"  role="group" aria-label="Basic example">
+                
+                <button onclick="contactar()" type="button" class="btn btn-secondary" style="margin-left: 500px;">Enviar</button>
+                
+              </div>
+        </form>
+      </div>
+
+      <!-- FOOTER -->
+      </div>
+      <div class="container">
+      <div class="card border-warning mb-3 mt-2" style="max-width: 18rem; margin-left: 400px;">
+        <div class="card-body text-warning">
+          <h5 class="card-title" style="margin-left: 25%;">Redes Sociales</h5>
+          <div class="ajusteiconos">
+            <a href="https://twitter.com/" target="_blank"> <img src="Imagenes/twiter.png" alt="iconotwiter" width="50px" height="50px"></a>
+            <a href="https://es-la.facebook.com/" target="_blank"> <img src="Imagenes/facebook.png" width="50px" height="50px"
+                    alt="iconofacebook"></a>
+            <a href="https://www.instagram.com/?hl=es-la" target="_blank"> <img src="Imagenes/instagram.png" width="50px" height="50px"
+                    alt="iconoinstagram"></a>
+        </div>
+        </div>
+      </div>
+
+      <script src="javascript/script.js"></script>
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

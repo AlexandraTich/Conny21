@@ -1,0 +1,29 @@
+p {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 150%;
+    color: red;
+}
+
+.label {
+    color: white;
+    font-family: 'Sansita Swashed', cursive;
+} 
+
+.estilo {
+    color: slategrey;
+}
+
+#boton {
+    display: flexbox;
+    margin-left: 40%;
+    
+}
+
+.formulario {
+    text-align: center;
+}
+
+.ajusteiconos {
+    text-align: center;
+}
+

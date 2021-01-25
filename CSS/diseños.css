@@ -1,0 +1,26 @@
+.damas {
+    font-family: cursive;
+    font-size: 40px;
+    text-align: center;
+    color: red;
+    font-weight: bolder;
+    text-shadow: 7px 4px 5px rgb(11, 87, 100)
+}
+
+.hombres {
+    font-family: cursive;
+    font-size: 40px;
+    text-align: center;
+    color: blue;
+    font-weight: bolder;
+    text-shadow: 7px 4px 5px rgb(90, 10, 86)
+}
+
+.niños {
+    font-family: cursive;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(48, 16, 48);
+    font-weight: bolder;
+    text-shadow: 7px 4px 5px rgb(78, 7, 19) 
+}
